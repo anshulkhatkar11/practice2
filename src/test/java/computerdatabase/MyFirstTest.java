@@ -12,7 +12,7 @@ public class MyFirstTest extends Simulation {
 
     // 1 Http Configuration
     private HttpProtocolBuilder httpProtocol = http
-            .baseUrl("http://localhost:9091")
+            .baseUrl("http://localhost:9092")
             .acceptHeader("application/json");
 
     // 2 Scenario Definition
